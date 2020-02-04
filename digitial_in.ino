@@ -1,11 +1,8 @@
-
-
-
 void setup() 
 {
  Serial.begin(9500);
-  pinMode(2,INPUT);                // Initialize Pin 1 as Input Pin for IR Sensor 1
-  pinMode(3,INPUT);                // Initialize Pin 2 as Input Pin for IR Sensor 2
+  pinMode(2,INPUT);                
+  pinMode(3,INPUT);               
   pinMode(9,OUTPUT);
   pinMode(10,OUTPUT);
   pinMode(11,OUTPUT);
